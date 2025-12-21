@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-
+# https://en.wikipedia.org/wiki/Gamma_correction
 # γ < 1 is sometimes called an encoding gamma, and the process of encoding with this compressive power-law nonlinearity is called gamma compression.
 # γ > 1 is called a decoding gamma, and the application of the expansive power-law nonlinearity is called gamma expansion.
 def gamma_correction(img, gamma):
